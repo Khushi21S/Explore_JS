@@ -1,9 +1,7 @@
 console.log("Start");
 
-var x = function printName(){
-    console.log("Hello World");
-};
-
-x();
+setTimeout(function () {
+  console.log("5 seconds passed");
+}, 5000);
 
 console.log("End");
